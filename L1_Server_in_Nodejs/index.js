@@ -28,7 +28,7 @@ let server = http.createServer((req, res) => {
     if(req.url== "/about"){ //http://localhost:8000/about //Run in browser
         res.end("About page"); // send response to client;
     }
-    if(req.url== "/course"){
+    if(req.url== "/course"){ //http://localhost:8000/course  //Run in browser
         res.end("Course page"); // send response to client;
     }
     if(req.url== "/"){ //http://localhost:8000  //Run in browser

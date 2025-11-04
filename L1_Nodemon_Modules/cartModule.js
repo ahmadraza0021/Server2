@@ -9,6 +9,6 @@ let changeQty = () => {
 
 let name = "ahmad"; // This is a variable
 
-// module.exports = addToCart; // default export
+module.exports = addToCart; // default export
 
-module.exports = { addToCart, changeQty, name }; // named export
+// module.exports = { addToCart, changeQty, name }; // named export
